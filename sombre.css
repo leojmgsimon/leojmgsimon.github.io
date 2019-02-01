@@ -1,26 +1,18 @@
 body {
-  background-color: #161616;
+  background-color: #181818;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #d0d0d0;
 }
 
-img {
-  border: 3px solid #d0d0d0;
-}
+img {border: 3px solid #d0d0d0}
 
-a:link {
-  color: #d0d0d0;
-}
+a:link, a:visited {color: #d0d0d0}
+a:hover {color: #ddd255}
+a:active {color: #aa9f22;}
 
-a:visited {
-  color: #d0d0d0;
-}
-
-a:hover {
-  color: #ddd255;
-}
-
-a:active {
-  color: #aa9f22;
+@media screen and (max-width:650px) {
+  h1, p {
+    font-size: 10vw;
+  }
 }
