@@ -79,6 +79,8 @@ body {
 
         display: block;
         padding: 0.5em;
+        margin-top: 2em;
+        z-index: 3;
 
         background-color: #333;
         border: 1px solid #111;
@@ -132,5 +134,9 @@ input[type="checkbox"]:checked + .stekache {
 @media screen and (min-width: 1000px) {
         .conteneur h1 {
                 display: none;
+        }
+
+        .tigrou {
+                margin-top: 0;
         }
 }
