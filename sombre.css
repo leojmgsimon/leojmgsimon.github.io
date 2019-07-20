@@ -4,6 +4,10 @@
         padding: 0:
 }
 
+:focus {
+        outline: none;
+}
+
 body {
         padding: 1em;
         background-color: #333;
