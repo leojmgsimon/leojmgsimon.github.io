@@ -97,7 +97,7 @@ a:active {
 }
 
 .laboite img:hover {
-        transform: scale(1.4) rotate(15deg);
+        transform: scale(1.4) rotate(10deg);
 }
 
 .tonbou {
@@ -188,7 +188,7 @@ input[type="checkbox"]:checked + .toptj {
         height: 100%;
         margin: 0 auto;
  
-        font-size: 5vw;
+        font-size: 2em;
         padding: 1em;
 
         box-shadow: 0 0 10px rgba(0,0,0,0.7) inset;
